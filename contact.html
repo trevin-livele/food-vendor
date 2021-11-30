@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-   <div class="Contact us">
-       <a href="#contact">Contact Us</a>
+
+   <div class="Contact">
+       <h4 id="header4"><a href="#contact">Contact Us</a></h4>
+       <form action="" method="POST">
+
+        <label for="fname">Name</label>
+        <input type="text" id="name" name="tname" placeholder="Your name please..">
+    
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Provide your email">
+    
+       
+    
+        <label for="subject">Comment</label>
+        <textarea id="subject" name="subject" placeholder="Type your comment or for further clarification from us.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+
+       <div class="Image">
+           <img id="back" src="./ImageContact/contact.png" width="500">
+       </div>
+
+     <div id="Icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+     </div>
+     
    </div> 
+
+   <script src="./contact.js"></script>
 </body>
 </html>

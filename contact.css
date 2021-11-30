@@ -1,0 +1,58 @@
+#back {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+#Icons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header4 a{
+    color: cornflowerblue;
+}
+
+.Contact{
+    background-color: #60B0C1;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: lavender;
+}
+
+input[type=text],textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1p solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.fa-facebook{
+    color: blue;
+    background-color: white;
+}
+
+.fa-whatsapp{
+    color: yellowgreen;
+    background-color: white;
+    
+}
+
+.fa-twitter{
+    color: blue;
+    background-color: white;
+
+}
+
+.fa-instagram{
+    color: palevioletred;
+    background: white;
+    
+}
