@@ -1,0 +1,6 @@
+.nav{
+    display: flex;
+   align-content: flex-end;
+    color: green;
+    background-color: #F5F5DC;
+}
