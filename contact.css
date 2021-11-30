@@ -14,7 +14,7 @@
 
 .Contact{
     background-color: #60B0C1;
-    padding: 50px;
+    padding: 40px;
     border-radius: 4px;
     box-shadow: lavender;
 }
@@ -55,4 +55,25 @@ input[type=submit]:hover {
     color: palevioletred;
     background: white;
     
+}
+
+.cont:hover{
+ color: brown;
+}
+
+.cont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: medium;
+    
+}
+
+#foot{
+ display: flex;
+ padding-right: 10px;
+ 
+}
+
+#header4 h3{
+    color: cornflowerblue;
 }
