@@ -1,6 +1,21 @@
 .nav{
     display: flex;
-   align-content: flex-end;
+    justify-content: right;
     color: green;
     background-color: #F5F5DC;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 200;
+}
+span{
+    font-size: medium;
+    /* font-family: ; */
+    color: limegreen;
 }
