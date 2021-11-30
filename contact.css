@@ -64,6 +64,7 @@ input[type=submit]:hover {
 .cont{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+    cursor: pointer;
     font-size: medium;
     
 }
@@ -71,9 +72,42 @@ input[type=submit]:hover {
 #foot{
  display: flex;
  padding-right: 10px;
+ box-shadow: 3px solid blue;
  
 }
 
-#header4 h3{
-    color: cornflowerblue;
+#header4 a{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+.cont1{
+    color: darkblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.cont2{
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.conta1:hover{
+    color: burlywood;
+    cursor: pointer;
+
+}
+
+.conta2:hover{
+    color: burlywood;
+    cursor: pointer;
 }
