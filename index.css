@@ -1,153 +1,168 @@
 /* navigation bar */
 .navbar {
-    background-color: beige !important;
-    /* color: green; */
-    /* height: 5rem; */
+  background-color: beige !important;
+  /* color: green; */
+  /* height: 5rem; */
 }
 #icon-nav {
-    /* background-color: darkblue; */
-    color: #858585;
+  /* background-color: darkblue; */
+  color: #858585;
 }
 li a {
-    color: green !important;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin: 0 1rem;
+  color: green !important;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0 1rem;
 }
 /* end navigation bar */
 /* about us section */
 .headers {
-    font-size: 1.8rem;
-    color: green;
-    font-family: sans-serif;
-    /* text-align: center; */
+  font-size: 1.8rem;
+  color: green;
+  font-family: sans-serif;
+  /* text-align: center; */
 }
 .about-info {
-    font-size: 1.2rem;
-    font-family: sans-serif;
+  font-size: 1.2rem;
+  font-family: sans-serif;
 }
 .about-us {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 .image-about {
-    height: 10rem;
-    width: 10rem
+  height: 10rem;
+  width: 10rem;
 }
-.image-group-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-group-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.image-group-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-group-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #btn-about {
-    background-color: green;
-    color: white;
-    border-radius: 20px;
-    width: 12rem;
-    font-weight: bold;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  width: 12rem;
+  font-weight: bold;
 }
-#read-more-text{
-    /* visibility: hidden; */
-    display: none;
+#read-more-text {
+  /* visibility: hidden; */
+  display: none;
 }
 .header-product {
-    text-align: center;
-    margin-top: 2rem;
-    font-family: sans-serif;
-    font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 /* styles for products */
 .image-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-title-list {
-    display: flex;
+  display: flex;
 }
 .card-text ul li {
-    list-style: none;
-    font-size: 1.3rem;
+  list-style: none;
+  font-size: 1.3rem;
 }
 .card-price {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .btn-order {
-    background-color: #2ECC71;
-    color: white;
-    font-weight: bold;
-    font-family: inherit;
-    font-size: 1.2rem;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1.2rem;
 }
 /* styles for dealers */
 .card-dealers-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn-block {
-    font-weight: bold;
-    font-family: inherit;
-    font-size: 1.2rem;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1.2rem;
 }
 .card-dealers {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .checked {
-    color: orange;
-  }
-  .modal-buttons {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
+  color: orange;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* styles for contacts us */
 #contact-us {
-    background-image: url(./images/contactUs.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* width: 80rem; */
-    height: 36rem;
+  background-image: url(./images/contactUs.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 80rem; */
+  height: 36rem;
 }
 #contact-us-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E5E5;
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  margin-top: 1rem;
 }
 form {
-    /* width: 500px; */
-    /* margin-left: auto;
+  /* width: 500px; */
+  /* margin-left: auto;
     margin-right: auto; */
 }
 ::placeholder {
-    color: green !important;
+  color: green !important;
 }
 .contact-btn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .btn-submit {
-    font-family: inherit;
-    font-size: 1.2rem;
-    font-weight: bold;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 47rem) {
+  #who {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  #about {
+    text-align: center;
+  }
+  .btn-read {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 }
