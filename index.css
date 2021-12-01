@@ -52,7 +52,8 @@ li a {
     font-weight: bold;
 }
 #read-more-text{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
 }
 .header-product {
     text-align: center;
@@ -116,8 +117,8 @@ li a {
 }
 form {
     /* width: 500px; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 ::placeholder {
     color: green !important;
@@ -125,4 +126,9 @@ form {
 .contact-btn {
     display: flex;
     justify-content: center;
+}
+.btn-submit {
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
