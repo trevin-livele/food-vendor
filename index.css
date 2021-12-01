@@ -1,3 +1,27 @@
+/* navigation bar */
+.navbar {
+    background-color: beige !important;
+    /* color: green; */
+    /* height: 5rem; */
+}
+#icon-nav {
+    /* background-color: darkblue; */
+    color: #858585;
+}
+li a {
+    color: green !important;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+/* end navigation bar */
+.headers {
+    font-size: 1.8rem;
+    color: green;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
 .about-us {
     margin-top: 6rem;
 }
@@ -14,4 +38,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#btn-about {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    width: 12rem;
+    font-weight: bold;
+}
+.header-product {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title-list {
+    display: flex;
+}
+.card-text ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+.card-price {
+    display: flex;
+    justify-content: space-between;
 }

@@ -12,11 +12,11 @@
 </head>
 
 <body>
-<!-- navigation bar -->
+    <!-- navigation bar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a href="index.html" class="navbar-brand"><img src="./assets/logo/logo.png" alt="" class="brand-logo"></a>
-        <button class="navbar-toggler" data-target="#agriHub" data-toggle="collapse">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" data-target="#agriHub" data-toggle="collapse" id="icon-nav">
+            <span class="navbar-toggler-icon bg-dark "></span>
         </button>
         <div class="collapse navbar-collapse" id="agriHub">
             <ul class="navbar-nav ml-auto">
@@ -51,10 +51,113 @@
             </div>
         </div>
         <div class="col-md-6">
-            <strong style="color: red;">What we do!!</strong>
-            <h4>About Us</h4>
+            <small class="headers" style="color: red;font-size: 1rem;">WHO WE ARE</small>
+            <h4 class="headers">About Us</h4>
+            <p> It is a proven fact that eating fruits and vegetables on a daily basis is highly beneficial to one and
+                all. Both fruits and vegetables are high in nutritional value and fiber. <br><br> Consuming these on a
+                daily basis also helps the body
+                stay light, fit and healthy and plays a major role in boosting the immune system. So, we help you
+                cleanse the body and get rid of harmful toxins by providing farm fresh fruits and vegetables. We, Royal
+                Fruits And Vegetables have been
+                in the industry since years now and are located in Malad West, Mumbai, Maharashtra.<br><br> The quality
+                of fruits and vegetables you consume is as important to us as it is to you, which is why we have earned
+                the trust of many and are
+                leading the market. We make sure you eat healthy and stay happy.</p>
+            <button class="btn btn-success" id="btn-about">Read More</button>
         </div>
     </div>
+    <!-- products section -->
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="headers header-product">PRODUCTS</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="image-card">
+                        <img src="./images/apple.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title-list">
+                            <h5 class="card-title"><strong>APPLES</strong> </h5>
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </div>
+                        <div class="card-text">
+                            <ul>
+                                <li><strong>Dealer:</strong>Engineer Ltd</li>
+                                <li><strong>Type:</strong>Fruits</li>
+                                <li><strong>Stock:</strong>200Kgs</li>
+                                <li><strong>Location:</strong>Thika</li>
+                                <li><strong>Terms:</strong>Price per Kgs</li>
+                            </ul>
+                        </div>
+                        <div class="card-price">
+                            <h3><Strong>Ksh 90</Strong></h3>
+                            <button class="btn btn-success">Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="image-card">
+                        <img src="./images/maize.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title-list">
+                            <h5 class="card-title"><strong>MAIZE</strong> </h5>
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </div>
+                        <div class="card-text">
+                            <ul>
+                                <li><strong>Dealer:</strong>Nakuru Famers Ltd</li>
+                                <li><strong>Type:</strong>Cereals</li>
+                                <li><strong>Stock:</strong>2000Bags</li>
+                                <li><strong>Location:</strong>Nakuru</li>
+                                <li><strong>Terms:</strong>Price per bag</li>
+                            </ul>
+                        </div>
+                        <div class="card-price">
+                            <h3><Strong>Ksh 2500</Strong></h3>
+                            <button class="btn btn-success">Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="image-card">
+                        <img src="./images/onions.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title-list">
+                            <h5 class="card-title"><strong>ONIONS</strong> </h5>
+                            <img src="" alt="">
+                            <img src="" alt="">
+                        </div>
+                        <div class="card-text">
+                            <ul>
+                                <li><strong>Dealer:</strong>Vasha Famers</li>
+                                <li><strong>Type:</strong>Onions</li>
+                                <li><strong>Stock:</strong>1 Tone</li>
+                                <li><strong>Location:</strong>Naivasha</li>
+                                <li><strong>Terms:</strong>Price per Kgs</li>
+                            </ul>
+                        </div>
+                        <div class="card-price">
+                            <h3><Strong>Ksh 90</Strong></h3>
+                            <button class="btn btn-success">Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
