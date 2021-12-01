@@ -48,3 +48,17 @@ li a {
 #Us h1 {
     color: green;
 }
+
+em {
+    color: green;
+}
+
+.about-info {
+    color: black !important;
+}
+
+#footer {
+    background-color: black !important;
+    opacity: 0.6;
+    color: white;
+}
