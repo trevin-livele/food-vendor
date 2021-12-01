@@ -52,6 +52,7 @@ li a {
     font-family: sans-serif;
     font-weight: bold;
 }
+/* styles for products */
 .image-card {
     display: flex;
     justify-content: center;
@@ -68,3 +69,19 @@ li a {
     display: flex;
     justify-content: space-between;
 }
+.btn-order {
+    background-color: #2ECC71;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+/* styles for dealers */
+
+.btn-block {
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+/* styles for contacts us */
