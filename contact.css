@@ -3,18 +3,11 @@
     margin-left: auto;
   margin-right: auto;
 }
-#Icons{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#header4 a{
-    color: cornflowerblue;
-}
+
 
 .Contact{
-    background-color: #60B0C1;
-    padding: 40px;
+    background-image: url('./ImageContact/food-conct.jpeg');
+    padding: 50px;
     border-radius: 4px;
     box-shadow: lavender;
 }
@@ -23,92 +16,73 @@ input[type=text],textarea {
     width: 100%;
     padding: 10px;
     border: 1p solid #ccc;
-    border-radius: 3px;
+    border-radius: 5px;
     box-sizing: border-box;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     resize: vertical;
+    color: green;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 
-.fa-facebook{
-    color: blue;
-    background-color: white;
-}
-
-.fa-whatsapp{
-    color: yellowgreen;
-    background-color: white;
-    
-}
-
-.fa-twitter{
-    color: blue;
-    background-color: white;
-
-}
-
-.fa-instagram{
-    color: palevioletred;
-    background: white;
-    
-}
-
-.cont:hover{
- color: brown;
-}
-
-.cont{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    cursor: pointer;
-    font-size: medium;
-    
-}
-
-#foot{
- display: flex;
- padding-right: 10px;
- box-shadow: 3px solid blue;
- background-color: burlywood;
- 
+input[type=submit]{
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
 }
 
 #header4 a{
-    color: blue;
+    color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     cursor: pointer;
+    text-align: center;
+    align-content: center;
+    align-items: center;
 
 }
 
-.cont1{
-    color: darkblue;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    cursor: pointer;
+.container{
+    box-shadow: 1px solid whitesmoke;
+    padding: 50px;
+    background-color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.cont2{
-    color: darkblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    cursor: pointer;
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+
 }
 
-.conta1:hover{
-    color: burlywood;
-    cursor: pointer;
-
+.navbar {
+    background-color: beige !important;
+    /* color: green; */
+    height: 5rem;
+}
+#icon-nav {
+    /* background-color: darkblue; */
+    color: #858585;
+}
+li a {
+    color: green !important;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 1rem;
 }
 
-.conta2:hover{
-    color: burlywood;
-    cursor: pointer;
-}
