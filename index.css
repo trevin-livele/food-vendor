@@ -91,13 +91,20 @@ li a {
     background-position: center;
     background-size: cover;
     /* width: 80rem; */
-    height: 40rem;
+    height: 36rem;
+}
+#contact-us-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #E5E5E5;
+    margin-top: 1rem;
 }
 form {
     /* width: 500px; */
@@ -106,4 +113,8 @@ form {
 }
 ::placeholder {
     color: green !important;
+}
+.contact-btn {
+    display: flex;
+    justify-content: center;
 }
