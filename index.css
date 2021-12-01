@@ -187,7 +187,7 @@ form {
   margin-bottom: 0.5rem;
 }
 .footer-heading a:hover {
-  color: red;
+  color: #292980;
   transition: 0.3s ease-out;
 }
 .footer-email-form h2 {
@@ -242,7 +242,7 @@ form {
       margin-top: 2rem;
   }
 }
-
+/* end of footer styles */
 
 @media (max-width: 47rem) {
   #who {
