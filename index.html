@@ -190,7 +190,7 @@
                             dealer will also offer discounts. Contact me for more.
                         </p>
                         <small style="color: green;">You will be saving 10% on orders above 20000 sh.</small>
-                        <button type="submit" class="btn btn-success btn-block mt-2">Contact</button>
+                        <button type="submit" class="btn btn-success btn-block mt-2" id="btn-contact-1" data-toggle="modal" data-target="#contact-dealer">Contact</button>
                     </div>
                 </div>
             </div>
@@ -219,7 +219,40 @@
                             not bigger than 20Kms.
                         </p>
                         <small style="color: green;">You will save alot from his products!!</small>
-                        <button type="submit" class="btn btn-success btn-block mt-2">Contact</button>
+                        <button type="submit" class="btn btn-success btn-block mt-2" id="btn-contact" data-toggle="modal" data-target="#contact-dealer">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- dealer response form pop up form -->
+    <div class="dealer-response">
+        <div class="modal" id="contact-dealer">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center">CONTACT DEALER</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea">About your business?</label>
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" class="form-control"
+                                    placeholder="Kind of business?" required></textarea>
+                            </div>
+                            <div class="modal-buttons">
+                                <button type="submit" class="btn btn-success button-confirm">Confirm</button>
+                                <button type="submit" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
