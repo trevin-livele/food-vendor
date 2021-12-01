@@ -5,7 +5,7 @@
 }
 
 .toggler span {
-    font-size: medium;
+    /* font-size: medium; */
     color: limegreen;
 }
 
@@ -16,4 +16,35 @@
 #AboutUs h1 span {
     color: green;
     font-size: large;
+}
+
+.navbar {
+    background-color: beige !important;
+    /* color: green; */
+    height: 5rem;
+}
+
+#icon-nav {
+    /* background-color: darkblue; */
+    color: #858585;
+}
+
+li a {
+    color: green !important;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+#Us {
+    margin-top: 100px;
+}
+
+#Us p {
+    color: red;
+}
+
+#Us h1 {
+    color: green;
 }
