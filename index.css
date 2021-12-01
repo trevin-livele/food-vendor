@@ -1,0 +1,17 @@
+.about-us {
+    margin-top: 6rem;
+}
+.image-about {
+    height: 10rem;
+    width: 10rem
+}
+.image-group-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-group-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
