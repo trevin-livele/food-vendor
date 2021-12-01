@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: right;
+    background-color: #F5F5DC;
+}
+
+.toggler span {
+    font-size: medium;
+    color: limegreen;
+}
+
+.navbar-nav a {
+    color: green;
+}
+
+#AboutUs h1 span {
+    color: green;
+    font-size: large;
+}
