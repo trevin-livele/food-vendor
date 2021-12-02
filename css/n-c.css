@@ -11,7 +11,7 @@ h1{
 }
 h2{
     font-family: sans-serif;
-    font-size: small;
+    font-size: x-large;
     font-weight: 200;
 }
 span{
@@ -19,3 +19,42 @@ span{
     /* font-family: ; */
     color: limegreen;
 }
+/* img:hover{
+    cursor: pointer;
+} */
+/* .kennedy{
+    color: white;
+    background-image: url(/customer_assets/image1.jpeg);
+    height: 170px;
+    width: 170px;
+}
+.mugisha{
+    color: white;
+    background-image: url(/customer_assets/image2.jpeg);
+    height: 170px;
+    width: 170px;
+}
+.hotels{
+    color: white;
+    background-image: url(/customer_assets/image3.jpeg);
+    height: 170px;
+    width: 170px;
+}
+.koi{
+    color: white;
+    background-image: url(/customer_assets/fruits.jpeg);
+    height: 170px;
+    width: 170px;
+}
+.khai{
+    color: white;
+    background-image: url(/customer_assets/image5.jpeg);
+    height: 170px;
+    width: 170px;
+}
+.eateries{
+    color: white;
+    background-image: url(/customer_assets/inter.jpeg);
+    height: 170px;
+    width: 170px;
+} */
