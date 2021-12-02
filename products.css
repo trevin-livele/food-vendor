@@ -158,11 +158,11 @@ li a {
     margin: 0 1rem;
 }
 
-
-.img-carosel{
-    background-position: center;
-    background-repeat: no-repeat;
+.carosel img{
+    height: 400px;
+    width: 1400px;
 }
+
 
 
 
