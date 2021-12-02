@@ -58,3 +58,9 @@ span{
     height: 170px;
     width: 170px;
 } */
+
+h3{
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+}
