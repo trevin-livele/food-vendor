@@ -64,3 +64,14 @@ h3{
     display: flex;
     justify-content: center;
 }
+.name{
+    background-color: yellow;
+}
+#message{
+    
+    background-color: yellow;
+    /* background-image: url(/customer_assets/image2.jpeg);
+    background-repeat: no-repeat; */
+    height: 400px;
+    width: 400px;
+}
