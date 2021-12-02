@@ -1,0 +1,162 @@
+.nav {
+    display: flex;
+    justify-content: right;
+    background-color: #F5F5DC;
+}
+
+.toggler span {
+    /* font-size: medium; */
+    color: limegreen;
+}
+
+.navbar-nav a {
+    color: green;
+}
+
+#AboutUs h1 span {
+    color: green;
+    font-size: large;
+}
+
+.navbar {
+    background-color: beige !important;
+    /* color: green; */
+    height: 5rem;
+}
+
+#icon-nav {
+    /* background-color: darkblue; */
+    color: #858585;
+}
+
+li a {
+    color: green !important;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+#Us {
+    margin-top: 100px;
+}
+
+#Us p {
+    color: red;
+}
+
+#Us h1 {
+    color: green;
+}
+
+em {
+    color: green;
+}
+
+.about-info {
+    color: black !important;
+}
+
+.footer-container {
+    background-color: green;
+    padding-bottom: 4rem 0 2rem 0;
+}
+
+.footer-header {
+    color: wheat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: green;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: #292980;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+    color: #fff;
+}
+
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    transition: all 0.4s ease-out;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer {
+        height: 50vh;
+    }
+    .footer-email-form {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .footer {
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer-3 {
+        height: none;
+    }
+    .footer-email-form {
+        margin-top: 2rem;
+    }
+}
