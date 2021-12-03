@@ -10,24 +10,36 @@
 </head>
 <body>
   <div class="container-fluid">
-    <div class="nav">
-      <nav class="navbar navbar-expand-lg navbar.text-success">
-        <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Welcome.</a> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              <a class="nav-link" href="./AboutUs.html">About us</a>
-              <a class="nav-link" href="./products.html">Products</a>
-              <a class="nav-link"href="./n-c.html">Customer Reviews</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <a href="index.html" class="navbar-brand"><img src="./assets/logo/logo.png" alt="" class="brand-logo"></a>
+      <button class="navbar-toggler" data-target="#agriHub" data-toggle="collapse" id="icon-nav">
+          <span class="navbar-toggler-icon bg-dark "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="agriHub">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./products.html" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Dealers</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./n-c.html" class="nav-link">Customer Reviews</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./contact.html" class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="cart.html" class="nav-link">
+                      <ion-icon name="cart"></ion-icon> Cart <span id="count">0</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
   </div>
    
    <div class="container mt-4">

@@ -1,9 +1,19 @@
-.nav{
-    display: flex;
-    justify-content: right;
-    color: green;
-    background-color: #F5F5DC;
-}
+.navbar {
+    background-color: beige !important;
+    /* color: green; */
+    /* height: 5rem; */
+  }
+  #icon-nav {
+    /* background-color: darkblue; */
+    color: #858585;
+  }
+  li a {
+    color: green !important;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 1rem;
+  }
 
 h1{
     display: flex;
